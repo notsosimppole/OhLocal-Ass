@@ -16,8 +16,6 @@ function App() {
     }
     fun();
   }, [])
-  
-  console.log(data);
 
   return (
     <div className="flex flex-col justify-center items-center">

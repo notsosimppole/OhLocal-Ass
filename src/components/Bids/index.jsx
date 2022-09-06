@@ -55,7 +55,7 @@ const Bids = ({bids}) => {
                 <div className='my-5 md:mt-0'>
                     <p>Alternate Product</p>
                     <div className='bg-slate-200 flex gap-2 rounded px-2 py-4 '>
-                        <img src = {bid.shop_image} alt = '' className='h-20 w-20' />
+                        <img src = './placeholder.png' alt = '' className='h-20 w-20' />
                         <div className='flex flex-col'>
                             <p className='text-md'>{bid.alternate_product_details.product_name}</p>
                             <div className='flex items-center'>
